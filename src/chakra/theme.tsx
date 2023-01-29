@@ -8,7 +8,7 @@ import "@fontsource/open-sans/700.css";
 export const theme = extendTheme({
   colors: {
     brands: {
-      100: "#FF3c00",
+      100: "#FF3C00",
     },
   },
 
@@ -17,11 +17,13 @@ export const theme = extendTheme({
   },
   styles: {
     global: () => ({
-        bg: "gray.200"
-    })
+      body: {
+        bg: "gray.200",
+      },
+    }),
   },
 
-  components : {
+  components: {
     // Buttons
-  }
+  },
 });
